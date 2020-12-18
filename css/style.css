@@ -1,0 +1,44 @@
+#displayComplaints{
+   background-color: yellow; 
+  
+   display:flex;
+   flex-direction: column;
+   text-align: left;
+}
+
+#response{
+    background-color: red;
+    }
+
+#displayResponse{
+   display:flex;
+   flex-direction: right;
+   text-align: right;}
+
+th, td {
+    padding: 10px;
+}
+
+body{
+    text-align: center;
+}
+
+#complaintTable{
+    margin: 0 auto;
+}
+
+.button{
+    background-color: blue;
+    color:white;
+    border-radius: 8px;
+
+}
+
+.button:hover, #policebutton:hover {background-color: royalblue;}
+
+#policebutton{
+    background-color: red;
+}
+#resolution{
+    display: none;
+}
